@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic");
+body {
+  background: url(../bg.jpg) no-repeat;
+  height: 100%; }
+
+.center {
+  text-align: center; }
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 72px;
+  font-family: Open Sans;
+  font-weight: 500;
+  color: white; }
+
+img {
+  width: 300px;
+  height: 300px; }
+
+.buttons {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+.btn {
+  border: 0;
+  width: 150px;
+  height: 40px;
+  background: #00CC66;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 0px 0px #047a35;
+          box-shadow: 0px 5px 0px 0px #047a35;
+  outline: none;
+  font-family: Open Sans;
+  font-weight: 600;
+  color: #fafafa;
+  text-shadow: 0px 1px 5px #02471f;
+  text-align: center;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear; }
+
+.btn:active {
+  -webkit-transform: translateY(2px);
+      -ms-transform: translateY(2px);
+          transform: translateY(2px);
+  -webkit-box-shadow: 0px 3px 0px 0px #047a35;
+          box-shadow: 0px 3px 0px 0px #047a35; }
+
+.btn-red {
+  background: #e67e22;
+  -webkit-box-shadow: 0px 5px 0px 0px #c0392b;
+          box-shadow: 0px 5px 0px 0px #c0392b; }
+
+.btn-red:active {
+  -webkit-box-shadow: 0px 3px 0px 0px #c0392b;
+          box-shadow: 0px 3px 0px 0px #c0392b; }
+
+.btn-blue {
+  background: #9b59b6;
+  -webkit-box-shadow: 0px 5px 0px 0px #34495e;
+          box-shadow: 0px 5px 0px 0px #34495e; }
+
+.btn-blue:active {
+  -webkit-box-shadow: 0px 3px 0px 0px #34495e;
+          box-shadow: 0px 3px 0px 0px #34495e; }
+
+.yoba {
+  background: url(https://lh5.ggpht.com/6G3wCupIFZy1NuiSYiGzPcPIj3PCyfB5wFb9wV-9tsayloSA_pVfb6TTWU1rgddo0A=w300);
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  position: absolute; }
+
+.yoba-active {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg); }
